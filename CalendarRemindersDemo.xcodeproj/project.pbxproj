@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33B3A0781D4A087A005C5B7D /* GeofenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B3A0771D4A087A005C5B7D /* GeofenceViewController.m */; };
+		33E156A21D48889D00B9F645 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E156A11D48889D00B9F645 /* main.m */; };
+		33E156A51D48889D00B9F645 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E156A41D48889D00B9F645 /* AppDelegate.m */; };
+		33E156AB1D48889D00B9F645 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E156A91D48889D00B9F645 /* Main.storyboard */; };
+		33E156AD1D48889D00B9F645 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33E156AC1D48889D00B9F645 /* Assets.xcassets */; };
+		33E156B01D48889D00B9F645 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E156AE1D48889D00B9F645 /* LaunchScreen.storyboard */; };
+		33E156BB1D48889E00B9F645 /* CalendarRemindersDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E156BA1D48889E00B9F645 /* CalendarRemindersDemoTests.m */; };
+		33E156C61D48889E00B9F645 /* CalendarRemindersDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E156C51D48889E00B9F645 /* CalendarRemindersDemoUITests.m */; };
+		33E156DB1D49A4D200B9F645 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E156DA1D49A4D200B9F645 /* MainTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33E156B71D48889E00B9F645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33E156951D48889D00B9F645 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33E1569C1D48889D00B9F645;
+			remoteInfo = CalendarRemindersDemo;
+		};
+		33E156C21D48889E00B9F645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33E156951D48889D00B9F645 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33E1569C1D48889D00B9F645;
+			remoteInfo = CalendarRemindersDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33B3A0761D4A087A005C5B7D /* GeofenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeofenceViewController.h; sourceTree = "<group>"; };
+		33B3A0771D4A087A005C5B7D /* GeofenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeofenceViewController.m; sourceTree = "<group>"; };
+		33E1569D1D48889D00B9F645 /* CalendarRemindersDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarRemindersDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E156A11D48889D00B9F645 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33E156A31D48889D00B9F645 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33E156A41D48889D00B9F645 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33E156AA1D48889D00B9F645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33E156AC1D48889D00B9F645 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33E156AF1D48889D00B9F645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33E156B11D48889D00B9F645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33E156B61D48889E00B9F645 /* CalendarRemindersDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarRemindersDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E156BA1D48889E00B9F645 /* CalendarRemindersDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarRemindersDemoTests.m; sourceTree = "<group>"; };
+		33E156BC1D48889E00B9F645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33E156C11D48889E00B9F645 /* CalendarRemindersDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarRemindersDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E156C51D48889E00B9F645 /* CalendarRemindersDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarRemindersDemoUITests.m; sourceTree = "<group>"; };
+		33E156C71D48889E00B9F645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33E156D91D49A4D200B9F645 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		33E156DA1D49A4D200B9F645 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33E1569A1D48889D00B9F645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E156B31D48889E00B9F645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E156BE1D48889E00B9F645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33E156941D48889D00B9F645 = {
+			isa = PBXGroup;
+			children = (
+				33E1569F1D48889D00B9F645 /* CalendarRemindersDemo */,
+				33E156B91D48889E00B9F645 /* CalendarRemindersDemoTests */,
+				33E156C41D48889E00B9F645 /* CalendarRemindersDemoUITests */,
+				33E1569E1D48889D00B9F645 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33E1569E1D48889D00B9F645 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33E1569D1D48889D00B9F645 /* CalendarRemindersDemo.app */,
+				33E156B61D48889E00B9F645 /* CalendarRemindersDemoTests.xctest */,
+				33E156C11D48889E00B9F645 /* CalendarRemindersDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33E1569F1D48889D00B9F645 /* CalendarRemindersDemo */ = {
+			isa = PBXGroup;
+			children = (
+				33B3A0761D4A087A005C5B7D /* GeofenceViewController.h */,
+				33B3A0771D4A087A005C5B7D /* GeofenceViewController.m */,
+				33E156D91D49A4D200B9F645 /* MainTableViewController.h */,
+				33E156DA1D49A4D200B9F645 /* MainTableViewController.m */,
+				33E156A91D48889D00B9F645 /* Main.storyboard */,
+				33E156AC1D48889D00B9F645 /* Assets.xcassets */,
+				33E156AE1D48889D00B9F645 /* LaunchScreen.storyboard */,
+				33E156B11D48889D00B9F645 /* Info.plist */,
+				33E156A01D48889D00B9F645 /* Supporting Files */,
+			);
+			path = CalendarRemindersDemo;
+			sourceTree = "<group>";
+		};
+		33E156A01D48889D00B9F645 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33E156A31D48889D00B9F645 /* AppDelegate.h */,
+				33E156A41D48889D00B9F645 /* AppDelegate.m */,
+				33E156A11D48889D00B9F645 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33E156B91D48889E00B9F645 /* CalendarRemindersDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				33E156BA1D48889E00B9F645 /* CalendarRemindersDemoTests.m */,
+				33E156BC1D48889E00B9F645 /* Info.plist */,
+			);
+			path = CalendarRemindersDemoTests;
+			sourceTree = "<group>";
+		};
+		33E156C41D48889E00B9F645 /* CalendarRemindersDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33E156C51D48889E00B9F645 /* CalendarRemindersDemoUITests.m */,
+				33E156C71D48889E00B9F645 /* Info.plist */,
+			);
+			path = CalendarRemindersDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33E1569C1D48889D00B9F645 /* CalendarRemindersDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33E156CA1D48889E00B9F645 /* Build configuration list for PBXNativeTarget "CalendarRemindersDemo" */;
+			buildPhases = (
+				33E156991D48889D00B9F645 /* Sources */,
+				33E1569A1D48889D00B9F645 /* Frameworks */,
+				33E1569B1D48889D00B9F645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalendarRemindersDemo;
+			productName = CalendarRemindersDemo;
+			productReference = 33E1569D1D48889D00B9F645 /* CalendarRemindersDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33E156B51D48889E00B9F645 /* CalendarRemindersDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33E156CD1D48889E00B9F645 /* Build configuration list for PBXNativeTarget "CalendarRemindersDemoTests" */;
+			buildPhases = (
+				33E156B21D48889E00B9F645 /* Sources */,
+				33E156B31D48889E00B9F645 /* Frameworks */,
+				33E156B41D48889E00B9F645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33E156B81D48889E00B9F645 /* PBXTargetDependency */,
+			);
+			name = CalendarRemindersDemoTests;
+			productName = CalendarRemindersDemoTests;
+			productReference = 33E156B61D48889E00B9F645 /* CalendarRemindersDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33E156C01D48889E00B9F645 /* CalendarRemindersDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33E156D01D48889E00B9F645 /* Build configuration list for PBXNativeTarget "CalendarRemindersDemoUITests" */;
+			buildPhases = (
+				33E156BD1D48889E00B9F645 /* Sources */,
+				33E156BE1D48889E00B9F645 /* Frameworks */,
+				33E156BF1D48889E00B9F645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33E156C31D48889E00B9F645 /* PBXTargetDependency */,
+			);
+			name = CalendarRemindersDemoUITests;
+			productName = CalendarRemindersDemoUITests;
+			productReference = 33E156C11D48889E00B9F645 /* CalendarRemindersDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33E156951D48889D00B9F645 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Pearl-Z";
+				TargetAttributes = {
+					33E1569C1D48889D00B9F645 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					33E156B51D48889E00B9F645 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 33E1569C1D48889D00B9F645;
+					};
+					33E156C01D48889E00B9F645 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 33E1569C1D48889D00B9F645;
+					};
+				};
+			};
+			buildConfigurationList = 33E156981D48889D00B9F645 /* Build configuration list for PBXProject "CalendarRemindersDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33E156941D48889D00B9F645;
+			productRefGroup = 33E1569E1D48889D00B9F645 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33E1569C1D48889D00B9F645 /* CalendarRemindersDemo */,
+				33E156B51D48889E00B9F645 /* CalendarRemindersDemoTests */,
+				33E156C01D48889E00B9F645 /* CalendarRemindersDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33E1569B1D48889D00B9F645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E156B01D48889D00B9F645 /* LaunchScreen.storyboard in Resources */,
+				33E156AD1D48889D00B9F645 /* Assets.xcassets in Resources */,
+				33E156AB1D48889D00B9F645 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E156B41D48889E00B9F645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E156BF1D48889E00B9F645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33E156991D48889D00B9F645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E156DB1D49A4D200B9F645 /* MainTableViewController.m in Sources */,
+				33E156A51D48889D00B9F645 /* AppDelegate.m in Sources */,
+				33B3A0781D4A087A005C5B7D /* GeofenceViewController.m in Sources */,
+				33E156A21D48889D00B9F645 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E156B21D48889E00B9F645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E156BB1D48889E00B9F645 /* CalendarRemindersDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E156BD1D48889E00B9F645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E156C61D48889E00B9F645 /* CalendarRemindersDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33E156B81D48889E00B9F645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33E1569C1D48889D00B9F645 /* CalendarRemindersDemo */;
+			targetProxy = 33E156B71D48889E00B9F645 /* PBXContainerItemProxy */;
+		};
+		33E156C31D48889E00B9F645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33E1569C1D48889D00B9F645 /* CalendarRemindersDemo */;
+			targetProxy = 33E156C21D48889E00B9F645 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33E156A91D48889D00B9F645 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33E156AA1D48889D00B9F645 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33E156AE1D48889D00B9F645 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33E156AF1D48889D00B9F645 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33E156C81D48889E00B9F645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		33E156C91D48889E00B9F645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33E156CB1D48889E00B9F645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CalendarRemindersDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Peral-Z.com.CalendarRemindersDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33E156CC1D48889E00B9F645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CalendarRemindersDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Peral-Z.com.CalendarRemindersDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		33E156CE1D48889E00B9F645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CalendarRemindersDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Peral-Z.com.CalendarRemindersDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalendarRemindersDemo.app/CalendarRemindersDemo";
+			};
+			name = Debug;
+		};
+		33E156CF1D48889E00B9F645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CalendarRemindersDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Peral-Z.com.CalendarRemindersDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalendarRemindersDemo.app/CalendarRemindersDemo";
+			};
+			name = Release;
+		};
+		33E156D11D48889E00B9F645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CalendarRemindersDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Peral-Z.com.CalendarRemindersDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CalendarRemindersDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		33E156D21D48889E00B9F645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CalendarRemindersDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Peral-Z.com.CalendarRemindersDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CalendarRemindersDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33E156981D48889D00B9F645 /* Build configuration list for PBXProject "CalendarRemindersDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E156C81D48889E00B9F645 /* Debug */,
+				33E156C91D48889E00B9F645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33E156CA1D48889E00B9F645 /* Build configuration list for PBXNativeTarget "CalendarRemindersDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E156CB1D48889E00B9F645 /* Debug */,
+				33E156CC1D48889E00B9F645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33E156CD1D48889E00B9F645 /* Build configuration list for PBXNativeTarget "CalendarRemindersDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E156CE1D48889E00B9F645 /* Debug */,
+				33E156CF1D48889E00B9F645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33E156D01D48889E00B9F645 /* Build configuration list for PBXNativeTarget "CalendarRemindersDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E156D11D48889E00B9F645 /* Debug */,
+				33E156D21D48889E00B9F645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33E156951D48889D00B9F645 /* Project object */;
+}
